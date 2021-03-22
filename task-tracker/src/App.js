@@ -1,3 +1,7 @@
+import Header from './components/Header';
+//reminder; this is a function component.... when using a CLASS
+//component, we have to import React from 'react'; to use it
+//class App extends React.Component ... etc
 
 function App() {
 
@@ -5,8 +9,7 @@ function App() {
 
   return (
     <div className="container">
-     <h1> Hello From React</h1>
-     <p> Hello {name} </p>
+      <Header />
     </div>
   );
 }
